@@ -1,0 +1,100 @@
+/*paleta de colores*/
+.azul1 {
+  background: #c6e2f0;
+}
+
+.azul2 {
+  background: #6daec0;
+}
+
+.azul3 {
+  background: #047c8a;
+}
+
+.azul4 {
+  background: #05435c;
+}
+
+.negro {
+  background: #000000;
+}
+
+.gris {
+  background: #707070;
+}
+
+.blanco {
+  background: #ffffff;
+}
+.letrablanca {
+  color: #ffffff;
+}
+.letraAzul4 {
+  color: #05435c;
+}
+
+.naranja {
+  background: #f07f00;
+}
+
+/*Noto Sans*/
+.parrafo_noto {
+  font-size: 10px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.subti1_noto {
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.subti2_noto {
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.titulos1_noto {
+  font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.titulos2_noto {
+  font-size: 40px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.barra_nav_noto {
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.barra_nav_noto_actual {
+  font-size: 21px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/*Alegreya Sans*/
+.parrafo_sans {
+  font-size: 10px;
+  font-family: Alegreya Sans;
+}
+
+.subti1_sans {
+  font-size: 14px;
+  font-family: Alegreya Sans;
+}
+
+.subti2_sans {
+  font-size: 20px;
+  font-family: Alegreya Sans;
+}
+
+.titulos1_sans {
+  font-size: 30px;
+  font-family: Alegreya Sans;
+}
+
+.titulos2_sans {
+  font-size: 40px;
+  font-family: Alegreya Sans;
+}
