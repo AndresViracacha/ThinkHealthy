@@ -1,0 +1,15 @@
+.contenedorTarjetas {
+  max-width: 662px;
+}
+.contenedorTarjetas a {
+  max-width: 167px;
+  margin: 0 10px;
+}
+
+.contenedorTarjetas a img {
+  width: 167px;
+  height: 167px;
+  object-fit: cover;
+  border-radius: 69px;
+  box-shadow: rgba(0, 0, 0, 0.16) 6px 6px 18px;
+}

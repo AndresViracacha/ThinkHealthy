@@ -1,3 +1,58 @@
+/*Banner y lo demas*/
+.tamañoimg {
+  width: 100%;
+  height: 622px;
+}
+
+.texto-encima {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.texto-encima2 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.texto-encima3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cont1 {
+  margin: 0px auto;
+  padding: 37px 70px;
+  max-width: 1216px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont1 div {
+  padding: 0px 10px;
+}
+
+.cont1 p {
+  margin-top: 30px;
+}
+
+.subcont1 {
+  width: 600px;
+}
+
+.subcont2 {
+  width: 500px;
+}
+
+/*Temas*/
+.temas {
+  margin: 0px 49px;
+}
 .temas h2 {
   text-align: center;
   margin-bottom: 62px;
@@ -14,6 +69,7 @@
   margin-bottom: 58px;
   font-weight: 400;
   text-decoration: none;
+  max-width: 260px;
   color: #000000;
 }
 
