@@ -1,28 +1,38 @@
 /*Banner y lo demas*/
+h1 {
+  text-align: center;
+}
+.circulosDesordenados {
+  width: 100%;
+  margin-bottom: 82px;
+}
 .tamañoimg {
   width: 100%;
   height: 622px;
 }
 
+.contenedorBanner {
+  background-image: url("https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/funciones-en-javascript-t1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .texto-encima {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 101px;
+  margin-bottom: 29px;
 }
 
 .texto-encima2 {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-bottom: 87px;
 }
 
 .texto-encima3 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: inline;
+  margin-bottom: 245px;
 }
 
 .cont1 {
@@ -31,6 +41,7 @@
   max-width: 1216px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 150px;
 }
 
 .cont1 div {
@@ -50,9 +61,10 @@
 }
 .boton-transparente {
   background-color: rgba(0, 0, 0, 0);
-  border-color: white;
+  border-radius: 4px;
+  border: white solid 2px;
   color: white;
-  padding: 10px;
+  padding: 17px 33px;
   font-weight: 700;
 }
 
@@ -71,6 +83,7 @@
   flex-wrap: wrap;
   max-width: 998px;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 .contenedorTarjetas a {
   margin-bottom: 58px;
