@@ -48,6 +48,13 @@
 .subcont2 {
   width: 500px;
 }
+.boton-transparente {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+}
 
 /*Temas*/
 .temas {
