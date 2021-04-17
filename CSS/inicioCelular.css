@@ -1,0 +1,14 @@
+.temas {
+  margin: 0;
+}
+.contenedorTarjetas {
+  justify-content: space-around;
+}
+.contenedorTarjetas a {
+  width: 97px;
+  margin: 0 10px;
+}
+.contenedorTarjetas a img {
+  width: 97px;
+  height: 97px;
+}
