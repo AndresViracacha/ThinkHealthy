@@ -1,0 +1,28 @@
+footer .contenedor .textoFooter {
+  font-size: 30px;
+}
+.iconos a {
+  padding: 5px 0;
+}
+.contenedor {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textoFooter {
+  flex-direction: column;
+}
+.subContenedores1 {
+  width: 100%;
+  margin-bottom: 53px;
+}
+.subContenedores2 {
+  width: 100%;
+  margin-bottom: 53px;
+}
+.subContenedores3 {
+  width: 100%;
+  margin-bottom: 53px;
+}
+.iconos {
+  margin-bottom: 53px;
+}
