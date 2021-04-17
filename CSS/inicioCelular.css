@@ -1,3 +1,17 @@
+.cont1 {
+  padding: 0px;
+  margin-bottom: 24px;
+}
+.subcont1 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.subcont2 img {
+  height: 80%;
+}
+
+/*tarjetas*/
 .temas {
   margin: 0;
 }

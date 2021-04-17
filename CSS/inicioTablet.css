@@ -1,3 +1,28 @@
+/*Que es think Healthy*/
+.cont1 {
+  display: flex;
+  align-items: center;
+}
+.subcont1 {
+  width: 49%;
+}
+.subcont1 h2 {
+  position: absolute;
+}
+.subcont1 p {
+  margin-top: 50px;
+}
+.subcont2 {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.subcont2 img {
+  height: 100%;
+}
+/*Tarjetas*/
 .contenedorTarjetas {
   max-width: 662px;
 }
