@@ -1,11 +1,12 @@
 header label {
-  display: block;
-}
-header label:hover {
-  display: block;
+	display: block;
 }
 
-.nav {
-  position: absolute;
-  flex-direction: column;
+.menu {
+	
+}
+
+.barra_nav ul{
+	position: absolute;
+	flex-direction: column;
 }
