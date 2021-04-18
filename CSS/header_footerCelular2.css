@@ -1,0 +1,12 @@
+header label {
+	display: block;
+}
+
+.menu {
+	
+}
+
+.barra_nav ul{
+	position: absolute;
+	flex-direction: column;
+}

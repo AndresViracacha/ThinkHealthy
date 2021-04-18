@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 /*Header*/
+/*#btn_menu {
+  display: none;
+}*/
+
+header label {
+  display: block;
+  margin-left: 90%;
+  /*margin-right: 10%;*/
+  width: 30px;
+  height: 50px;
+  padding: 10px;
+  /*border-right: 1px solid white;*/
+}
+
+header label:hover{
+  cursor: pointer;
+}
+
 .menu {
   margin: 0px auto;
   padding: 34px;
@@ -28,9 +46,11 @@
 
 .barra_nav ul {
   list-style: none;
+  flex-direction: row;
 }
 
 .nav li a {
+  display: block;
   background-color: #6daec0;
   color: white;
   text-decoration: none;
@@ -53,6 +73,14 @@
 }
 .nav ul li a {
   padding: 15px 10px;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
 }
 
 .nav li a.ultimo_elemento {
