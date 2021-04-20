@@ -1,0 +1,44 @@
+.miHistoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tituloMiHistoria {
+  background-image: url("../IMG/Narrativa/miHistoria.png");
+  display: inline-block;
+  padding-top: 49px;
+  width: 423px;
+  height: 169px;
+  text-align: center;
+}
+.contenedorHistoria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 79px;
+  max-width: 1035px;
+  flex-wrap: wrap;
+}
+.contenedorHistoria img {
+  width: 486px;
+  border-radius: 65px;
+  margin-top: 42px;
+}
+.contenedorHistoria p {
+  width: 40%;
+  border-radius: 65px;
+}
+.imagen1 {
+  order: 1;
+}
+.parrafo1 {
+  order: 1;
+}
+.imagen2 {
+  order: 3;
+}
+.parrafo2 {
+  order: 2;
+}
