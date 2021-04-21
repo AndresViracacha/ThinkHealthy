@@ -1,7 +1,9 @@
 /*Personajes*/
 .personajes {
   display: flex;
-  max-width: 920;
+  max-width: 920px;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 .personajes a {
   width: 16%;
@@ -33,6 +35,17 @@
 .personajes a .iconoTiktok {
   width: 80px;
   height: 20px;
+}
+
+/*Flecha*/
+a.flecha {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+  margin-top: 67px;
+}
+.flecha img {
+  width: 91px;
 }
 
 /*Mi historia*/
