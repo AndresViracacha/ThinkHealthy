@@ -1,3 +1,13 @@
+/*carlitos*/
+.viñeta {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 40px 40px 0px 40px;
+}
+.invitacion img {
+  width: 50%;
+}
+/*footer*/
 footer .contenedor .textoFooter {
   font-size: 30px;
 }

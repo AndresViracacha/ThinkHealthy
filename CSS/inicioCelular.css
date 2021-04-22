@@ -4,8 +4,10 @@
 .cont1 {
   padding: 0px;
   margin-bottom: 24px;
+  flex-direction: column;
 }
 .subcont1 h2 {
+  width: 100%;
   font-size: 30px;
   font-weight: 700;
 }

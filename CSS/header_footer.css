@@ -100,6 +100,26 @@ header label:hover {
 .active {
   color: #05435c;
 }
+/*carlitos saludando*/
+.invitacion {
+  display: flex;
+  justify-content: flex-end;
+}
+.viñeta {
+  background-color: #6daec0;
+  font-weight: bold;
+  color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 39px;
+  border-radius: 107px 107px 0px 107px;
+}
+.invitacion img {
+  width: 300px;
+}
 /* Footer*/
 .contenedor {
   margin: 0px auto;
@@ -134,5 +154,11 @@ header label:hover {
 
 .xd {
   height: 2000px;
-  background-color: rgb(255, 249, 213);
+  background-color: rgb(220, 255, 213);
+}
+.logousb {
+  width: 72px;
+}
+.logousb img {
+  width: 100%;
 }
