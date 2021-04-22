@@ -10,9 +10,8 @@ h1 {
   width: 100%;
   height: 622px;
 }
-
 .contenedorBanner {
-  background-image: url("https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/funciones-en-javascript-t1.png");
+  background-image: url("../IMG/Inicio/banner.svg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -28,6 +27,7 @@ h1 {
 .texto-encima2 {
   text-align: center;
   margin-bottom: 87px;
+  max-width: 500px;
 }
 
 .texto-encima3 {
@@ -58,6 +58,10 @@ h1 {
 
 .subcont2 {
   width: 500px;
+}
+.subcont2 img {
+  width: 100%;
+  border-radius: 24px;
 }
 .boton-transparente {
   background-color: rgba(0, 0, 0, 0);
@@ -97,7 +101,7 @@ h1 {
   width: 260px;
   height: 260px;
   object-fit: cover;
-  border-radius: 69px;
+  border-radius: 24px;
   box-shadow: rgba(0, 0, 0, 0.16) 6px 6px 18px;
 }
 .contenedorTarjetas a p {
