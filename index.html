@@ -17,23 +17,36 @@
     <link rel="stylesheet" href="./CSS/inicio.css">
     <link rel="stylesheet" media="(max-width: 968px)" href="./CSS/inicioTablet.css">
     <link rel="stylesheet" media="(max-width: 490px)" href="./CSS/inicioCelular.css">
-    <link rel="stylesheet" media="(max-width: 768px)" href="./CSS/header_footerCelular2.css">
+    <link rel="stylesheet" media="(min-width: 1024px)" href="./CSS/header_footerCelular2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   
+    
     <title>Think Healthy</title>
 </head>
 
 <body>
-    <header class="azul2 conte1">
-                <li><a href=""><img src="IMG/Header_Footer/img/thinkhealty2.svg" alt="">   <img src="IMG/Header_Footer/img/thinkhealty.svg" alt=""></a></li>
-        <nav class="menu">
-            <ul>
-                <li><a href="" class="letrablanca" class="position">INICIO</a></li>
-                <li><a href="" class="letrablanca" class="position">TEMAS</a></li>
-                <li><a href="" class="letrablanca" class="position">EL MUNDO DE CARLITOS</a></li>
-                <li><a href="" class="letrablanca" class="position">ACERCA DE</a></li>
-            </ul>
-        </nav>
-        <label for=""><img src="IMG/Header_Footer/img/burger.svg" alt=""></label>
-    </header>
+     <header>
+    <img class="posimg" src="IMG/Header_Footer/img/th.svg" alt="">
+    <input type="checkbox" id="btn-menu" />
+    <label for="btn-menu"><i class="fa fa-bars"></i></label>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li class="submenu"><a href="#">Temas <i class="fa fa-caret-down"></i></a>
+          <ul>
+            <li><a href="#">Salud Fisica y Nutricion</a></li>
+            <li><a href="#">Consumo de Sustancias SPA</a></li>
+            <li><a href="#">Sexulidad</a></li>
+            <li><a href="#">Salud Emocional y Mental</a></li>
+            <li><a href="#">Comunicacion</a></li>
+          </ul>
+        </li>
+        <li><a href="#">El mundo de Carlitos</a></li>
+        <li><a href="#">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
 
     <!-- andres -->
     <div class="contenedorBanner">
@@ -157,6 +170,8 @@
             </div>
         </div>
     </footer>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <script src="js/menu.js"></script>
 </body>
 
 </html>
