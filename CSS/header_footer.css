@@ -145,6 +145,11 @@ header label {
   text-transform: uppercase;
   font-weight: 700;
 }
+.viñeta a:hover {
+  color: #05435c;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .invitacion img {
   width: 300px;
 }
