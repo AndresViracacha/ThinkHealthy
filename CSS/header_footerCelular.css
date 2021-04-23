@@ -1,3 +1,20 @@
+.menu {
+  width: 90%;
+  transform: translateX(140%);
+  transition: all 0.4s;
+}
+#btn-menu:checked ~ .menu {
+  transform: translateX(12%);
+}
+.menu a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+}
+.submenu ul li a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+  padding-right: 2px;
+}
 /*carlitos*/
 .viñeta {
   margin-left: 20px;
@@ -35,4 +52,7 @@ footer .contenedor .textoFooter {
 }
 .iconos {
   margin-bottom: 53px;
+}
+header {
+  padding: 0px 20px;
 }

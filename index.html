@@ -19,37 +19,36 @@
     <link rel="stylesheet" href="./CSS/inicio.css">
     <link rel="stylesheet" media="(max-width: 968px)" href="./CSS/inicioTablet.css">
     <link rel="stylesheet" media="(max-width: 490px)" href="./CSS/inicioCelular.css">
-    <link rel="stylesheet" media="(max-width: 768px)" href="./CSS/header_footerCelular2.css">
+    <link rel="stylesheet" media="(min-width: 1024px)" href="./CSS/header_footerCelular2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
     <title>Think Healthy</title>
 </head>
 
 <body>
+
     <header>
-        <div class="azul2">
-            <label for="btn_menu"><img src="IMG/Header_Footer/img/burger.svg" alt=""></label>
-            <nav class="menu">
-                <a href="./index.html" class="header_logo">
-                    <img src="./IMG/Header_Footer/img/thinkhealty2.svg">
-                    <img src="./IMG/Header_Footer/img/thinkhealty.svg">
-                </a>
-                <div class="barra_nav">
-                    <ul class="nav barra_nav_noto">
-                        <li><a href="./index.html">INICIO</a></li>
-                        <li><a href="">TEMAS</a>
-                            <ul>
-                                <li><a href="">Actividad física y nutrición</a></li>
-                                <li><a href="">Sexualidad</a></li>
-                                <li><a href="">Consumo de sustancias SPA</a></li>
-                                <li><a href="">Salud mental y emocional</a></li>
-                                <li><a href="" class="ultimo_elemento">Salud mental y emocional</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="./narrativa.html">EL MUNDO DE CARLITOS</a></li>
-                        <li><a href="">ACERCA DE</a></li>
+        <img class="posimg" src="IMG/Header_Footer/img/th.svg" alt="">
+        <input type="checkbox" id="btn-menu" />
+        <label for="btn-menu"><i class="fa fa-bars"></i></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li class="submenu"><a>Temas <i class="fa fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">Salud Fisica y Nutricion</a></li>
+                        <li><a href="#">Consumo de Sustancias SPA</a></li>
+                        <li><a href="#">Sexulidad</a></li>
+                        <li><a href="#">Bienestar Espiritual, Salud Emocional y Mental</a></li>
+                        <li><a href="#">Comunicacion</a></li>
                     </ul>
-                </div>
-            </nav>
-        </div>
+                </li>
+                <li><a href="#">El mundo de Carlitos</a></li>
+                <li><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- andres -->
@@ -181,6 +180,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
