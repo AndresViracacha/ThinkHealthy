@@ -4,7 +4,7 @@
   transition: all 0.4s;
 }
 #btn-menu:checked ~ .menu {
-  transform: translateX(12%);
+  transform: translateX(11%);
 }
 .menu a {
   padding-top: 5px;
