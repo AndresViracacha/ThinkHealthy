@@ -80,7 +80,7 @@ header label {
     top: 80px;
     left: 0;
     width: 50%;
-    transform: translateX(200%);
+    transform: translateX(-150%);
     transition: all 0.4s;
     box-shadow: -3px 10px 10px rgba(0, 0, 0, 0.4);
   }
