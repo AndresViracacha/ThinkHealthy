@@ -140,6 +140,11 @@ header label {
   padding: 39px;
   border-radius: 107px 107px 0px 107px;
 }
+.viñeta a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .invitacion img {
   width: 300px;
 }
@@ -173,6 +178,10 @@ header label {
 .iconos a {
   display: inline-block;
   margin: 0 15px;
+  height: 14px;
+}
+.iconos a img {
+  height: 100%;
 }
 
 .xd {

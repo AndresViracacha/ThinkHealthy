@@ -71,7 +71,14 @@ h1 {
   border: white solid 2px;
   color: white;
   padding: 17px 33px;
+  transition: 0.4s ease;
   font-weight: 700;
+  cursor: pointer;
+}
+.boton-transparente:hover {
+  background-color: rgb(255, 255, 255);
+  color: #05435c;
+  transition: 0.4s ease;
 }
 
 /*Temas*/

@@ -28,9 +28,6 @@
 footer .contenedor .textoFooter {
   font-size: 30px;
 }
-.iconos a {
-  padding: 5px 0;
-}
 .contenedor {
   flex-direction: column;
   align-items: flex-start;
