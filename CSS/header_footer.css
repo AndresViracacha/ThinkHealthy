@@ -4,9 +4,6 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-html {
-  overflow-x: hidden;
-}
 
 header {
   height: 80px;
@@ -16,7 +13,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 34px 170px;
-  overflow-x: hidden;
 }
 
 .posimg {

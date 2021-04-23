@@ -55,7 +55,9 @@ h1 {
 .subcont1 {
   width: 600px;
 }
-
+.subcont1 h2 {
+  width: 100%;
+}
 .subcont2 {
   width: 500px;
 }

@@ -1,6 +1,6 @@
 .menu {
   width: 90%;
-  transform: translateX(140%);
+  transform: translateX(-140%);
   transition: all 0.4s;
 }
 #btn-menu:checked ~ .menu {
