@@ -1,0 +1,49 @@
+.definicion {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  margin-bottom: 160px;
+}
+h1 {
+  position: absolute;
+  margin-top: 20px;
+  width: 33%;
+}
+.fila1,
+.fila2,
+.fila3 {
+  margin-top: 151px;
+}
+
+.fila1 img {
+  width: 80%;
+  border-radius: 24px;
+  margin-top: 30px;
+}
+.fila2 {
+  padding: 0 58px;
+}
+.fila2 p {
+  height: 100%;
+}
+
+/*apartado de la aplicacion*/
+.aplicacion {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.info {
+  width: 70%;
+  float: left;
+  padding-right: 60px;
+}
+
+.info p {
+  margin-top: 90px;
+}
+
+.aplicacion img {
+  width: 30%;
+}
