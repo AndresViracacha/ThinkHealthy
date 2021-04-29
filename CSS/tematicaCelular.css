@@ -1,0 +1,29 @@
+h1 {
+  position: relative;
+}
+.fila1 {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.fila2 {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.fila3 {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.aplicacion {
+  flex-direction: column;
+}
+.info {
+  width: 100%;
+  padding: 0px;
+}
+.aplicacion img {
+  width: 100%;
+}
