@@ -4,6 +4,10 @@
   display: flex;
   position: relative;
   margin-bottom: 160px;
+  z-index: -1;
+}
+.definicion p {
+  text-align: justify;
 }
 h1 {
   position: absolute;
@@ -13,7 +17,16 @@ h1 {
 .fila1,
 .fila2,
 .fila3 {
+  width: 33%;
   margin-top: 151px;
+}
+
+.fila1 {
+  padding-right: 29px;
+}
+
+.fila3 {
+  padding-left: 29px;
 }
 
 .fila1 img {
@@ -21,10 +34,16 @@ h1 {
   border-radius: 24px;
   margin-top: 30px;
 }
+
 .fila2 {
-  padding: 0 58px;
+  padding: 0 29px;
 }
+
 .fila2 p {
+  height: 100%;
+}
+
+.fila3 p {
   height: 100%;
 }
 
@@ -34,6 +53,7 @@ h1 {
   margin: 0 auto;
   margin-bottom: 120px;
 }
+
 .info {
   width: 70%;
   float: left;
@@ -42,6 +62,7 @@ h1 {
 
 .info p {
   margin-top: 90px;
+  text-align: justify;
 }
 
 .aplicacion img {
