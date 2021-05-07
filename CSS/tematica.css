@@ -10,15 +10,18 @@
   text-align: justify;
 }
 h1 {
-  position: absolute;
+  width: 100%;
+  max-width: 1240px;
+  padding: 0px 20px;
+  margin: 0 auto;
   margin-top: 20px;
-  width: 33%;
+  z-index: -1;
 }
 .fila1,
 .fila2,
 .fila3 {
   width: 33%;
-  margin-top: 151px;
+  margin-top: 20px;
 }
 
 .fila1 {
