@@ -1,0 +1,95 @@
+/*Personajes*/
+.personajes {
+  display: flex;
+  max-width: 920px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.personajes a {
+  width: 16%;
+}
+.personajes a img {
+  width: 100%;
+}
+/*Iconos*/
+.personajes a .iconoBlogger {
+  width: 100px;
+  height: 35px;
+}
+.personajes a .iconoTwitter {
+  width: 92px;
+  height: 22px;
+}
+.personajes a .iconoYoutube {
+  width: 79px;
+  height: 40px;
+}
+.personajes a .iconoSpotify {
+  width: 106px;
+  height: 31px;
+}
+.personajes a .iconoInstagram {
+  width: 107px;
+  height: 28px;
+}
+.personajes a .iconoTiktok {
+  width: 80px;
+  height: 20px;
+}
+
+/*Flecha*/
+a.flecha {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+  margin-top: 67px;
+}
+.flecha img {
+  width: 91px;
+}
+
+/*Mi historia*/
+.miHistoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tituloMiHistoria {
+  background-image: url("../IMG/Narrativa/miHistoria.png");
+  display: inline-block;
+  padding-top: 49px;
+  width: 423px;
+  height: 169px;
+  text-align: center;
+}
+.contenedorHistoria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 79px;
+  max-width: 1035px;
+  flex-wrap: wrap;
+}
+.contenedorHistoria img {
+  width: 486px;
+  border-radius: 65px;
+  margin-top: 42px;
+}
+.contenedorHistoria p {
+  width: 40%;
+  border-radius: 65px;
+}
+.imagen1 {
+  order: 1;
+}
+.parrafo1 {
+  order: 1;
+}
+.imagen2 {
+  order: 3;
+}
+.parrafo2 {
+  order: 2;
+}
