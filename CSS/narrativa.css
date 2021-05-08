@@ -9,7 +9,8 @@
   width: 16%;
 }
 .personajes a img {
-  width: 100%;
+  /*width: 100%;*/
+  /*height: 100%;*/
 }
 /*Iconos*/
 .personajes a .iconoBlogger {
