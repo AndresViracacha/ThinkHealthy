@@ -7,35 +7,45 @@
 }
 .personajes a {
   width: 16%;
+  position: relative;
+  text-decoration: none;
+  opacity: 0.1;
+  transition: 0.5s ease;
 }
-.personajes a img {
-  /*width: 100%;*/
-  /*height: 100%;*/
+.personajes a:hover,
+.personajes a:hover div {
+  opacity: 1;
 }
-/*Iconos*/
-.personajes a .iconoBlogger {
-  width: 100px;
-  height: 35px;
+.personajes a h2 {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.personajes a .iconoTwitter {
-  width: 92px;
-  height: 22px;
+.personajes a div {
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  width: 150px;
+  padding: 10px;
+  color: #fff;
+  font-weight: 700;
+  opacity: 0.2;
+  z-index: 5;
+  background-color: #6daec0;
+  border-radius: 0px 20px 20px 20px;
 }
-.personajes a .iconoYoutube {
-  width: 79px;
-  height: 40px;
+.personajes .carlitos,
+.personajes .vanesa {
+  left: 150px;
 }
-.personajes a .iconoSpotify {
-  width: 106px;
-  height: 31px;
+.personajes .abuelo {
+  left: 250px;
 }
-.personajes a .iconoInstagram {
-  width: 107px;
-  height: 28px;
+.personajes .amigo1 {
+  left: 300px;
 }
-.personajes a .iconoTiktok {
-  width: 80px;
-  height: 20px;
+.personajes a .logos {
+  width: 100%;
 }
 
 /*Flecha*/
