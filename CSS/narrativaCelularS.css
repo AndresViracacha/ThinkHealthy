@@ -1,0 +1,29 @@
+.personajes {
+  align-items: flex-start;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.personaje {
+  height: 50vh;
+}
+.personajes a div {
+  top: 80px;
+  left: 200px;
+  width: 120px;
+}
+.personajes .abuelo {
+  left: 150px;
+}
+
+.personajes .amigo1 {
+  top: 170px;
+  left: 95px;
+  width: 180px;
+}
+.personajes .amiga1 {
+  top: 20px;
+  left: 150px;
+}
+.personajes .amigo2 {
+  left: 150px;
+}

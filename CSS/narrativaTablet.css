@@ -1,0 +1,10 @@
+.personajes {
+  flex-direction: column;
+  align-items: center;
+}
+.personajes a {
+  opacity: 1;
+}
+.personajes a div {
+  opacity: 1;
+}
