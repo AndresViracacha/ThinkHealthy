@@ -2,6 +2,8 @@
 {
 	background-image: url("../IMG/Narrativa/miHistoria2.png");
 	width: 100%;
+	height: 130px;
+	margin-bottom: : 100%;
 	/*margin-right: 50px;*/
 	/*padding: 0px;*/
 	/*margin-left: -10%;:*/
@@ -12,7 +14,10 @@
 	width: 90%;
 }
 
-.logos
+.personajes .logos
 {
-	width: 100%;
+	/*background-color: #a77658;*/
+	/*margin: 100px;*/ 
+	width: 200px;
+	height: auto;
 }
