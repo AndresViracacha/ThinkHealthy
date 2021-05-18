@@ -2,3 +2,25 @@
   align-items: flex-start;
   padding-left: 150px;
 }
+
+.logos {
+	/*width: 265px;*/
+	height: 65%;
+}
+
+.imagen1 {
+	margin: auto;
+}
+
+.imagen2 {
+	margin: auto;
+}
+
+.contenedorHistoria
+{
+	width: 90%;
+}
+
+/*.tituloMiHistoria{
+	width: 100%;
+}*/

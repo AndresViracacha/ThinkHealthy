@@ -1,0 +1,17 @@
+.tituloMiHistoria
+{
+	background-image: url("../IMG/Narrativa/miHistoria2.png");
+	/*width: 100%;*/
+	/*padding: 0px;*/
+	/*margin-left: -10%;:*/
+}
+
+.contenedorHistoria
+{
+	width: 90%;
+}
+
+.logos
+{
+	width: 100%;
+}
