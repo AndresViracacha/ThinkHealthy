@@ -76,6 +76,7 @@ header label {
   transition: all 0.3s ease;
   display: block;
   position: absolute;
+  z-index: 10;
 }
 
 @media (max-width: 998px) {
