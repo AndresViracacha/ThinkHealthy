@@ -8,3 +8,13 @@
 .personajes a div {
   opacity: 1;
 }
+
+.personajes a .logos 
+{
+	/*width:  100px;*/
+	/*background-color: #0036cf;*/
+	/*padding: 10px; */
+	/*width: 2000px;*/
+	height: 100%;
+	/*width:  100px;*/
+}

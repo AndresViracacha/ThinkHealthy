@@ -3,9 +3,13 @@
   padding-left: 150px;
 }
 
-.logos {
-	width: 265px;
-	height: 65%;
+.personajes a .logos {
+	/*background-color: #fbdb65;*/
+	/*min-width: 100px;*/
+	/*width: auto;*/
+	/*margin-left: 100px;*/
+	width: 150px;
+	/*height: 100px;*/
 }
 
 .imagen1 {
@@ -21,6 +25,3 @@
 	width: 90%;
 }
 
-/*.tituloMiHistoria{
-	width: 100%;
-}*/

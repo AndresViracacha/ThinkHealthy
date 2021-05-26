@@ -14,10 +14,11 @@
 	width: 90%;
 }
 
-.personajes .logos
+.personajes a .logos 
 {
-	/*background-color: #a77658;*/
-	/*margin: 100px;*/ 
-	width: 200px;
-	height: auto;
+	/*background-color: #dc00ff;*/
+	/*margin: 0px; */
+	/*width: 2000px;*/
+	/*height: 100px;*/
+	width:  140px;
 }

@@ -28,8 +28,14 @@
   left: 170px;
 }
 
-.logos {
-  width: 1000%;
+.personajes a .logos
+{
+  /*width:  100px;*/
+  /*background-color: #bc1339;*/
+  /*padding: 10px; */
+  /*width: 2000px;*/
+  height: 100%;
+  /*width:  100px;*/
 }
 
 
